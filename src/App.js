@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import useSpeechToText from './SpeechToText.js';
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <useSpeechToText/>
     </div>
-  );
+);
 }
 
 export default App;
