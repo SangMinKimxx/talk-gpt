@@ -9,7 +9,6 @@ const useSpeechToText = () => {
             console.log("listening:", listening);
         } else {
             SpeechRecognition.startListening({ language: 'ko-KR', continuous: true });
-
             console.log("start listening:", listening);
         }
     }
